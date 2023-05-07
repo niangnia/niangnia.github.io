@@ -13,6 +13,6 @@ console.log(add(200,300));
 function sayHello(){
   var x =document.getElementById("demo");
   x.style.fontSize="25px";
-  x.style.color="red";
-  x.innerHTML = "Well,nightynight^^";
+  x.style.color="white";
+  x.innerHTML = "OK,nightynight";
 }
