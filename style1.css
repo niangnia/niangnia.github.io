@@ -1,1 +1,27 @@
-#box
+body{
+background-color: pink;
+text-align: center;
+}
+
+h1{
+  color: white;
+  font-family: "Lucida Bright", cursive, serif, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+div.why button{
+  background-color:pink;
+  border-color:pink;
+  border-radius: 18px;
+  font-size: 30px;
+  color:white;
+}
+
+#how{
+  text-align: left;
+}
+
+fieldset{
+  background-color: rgb(191,255,255,40%)
+}
