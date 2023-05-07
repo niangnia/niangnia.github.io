@@ -4,5 +4,40 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
 
-  
+  position: absolute;
+  height: 50px;
+  text-align: center;
+  line-height: 30px;
+  width: 100%;
+  position:fixed; bottom:240px; left:0px;
+
+  font-family: helvetica,arial,sans-serif;
+
+}
+
+h1{
+  color: white;
+  font-family: "Lucida Bright", cursive, serif, sans-serif;
+  font-weight: bolder;
+  font-size: 65px;
+}
+
+p{
+  letter-spacing: 10px;
+  line-height: 3px;
+  font-size: 17px;
+}
+
+h2{
+  line-height: 50px;
+  color: #0d6efd;
+}
+
+div.bt button{
+  background-color:pink;
+  border-color:pink;
+  border-radius: 18px;
+  font-size: 15px;
+  color:white;
+
 }
