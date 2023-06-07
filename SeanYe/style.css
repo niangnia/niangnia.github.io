@@ -1,0 +1,22 @@
+/*导航栏*/
+.navbar{
+  font-weight: 700;
+  font-size: 1.72rem;
+  letter-spacing: .064rem;
+  background: rgba(0, 0, 0, 0.3)!important;
+}
+
+.navbar-brand img{
+  height: 2.75rem;
+}
+
+.navbar-nav li{
+  padding-right: 1.5rem;
+}
+
+/*请看新盐*/
+a{
+  color:#b5403c;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
