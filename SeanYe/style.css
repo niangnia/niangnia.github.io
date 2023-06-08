@@ -1,3 +1,6 @@
+html,body{
+  scroll-behavior: smooth;
+}
 /*导航栏*/
 .navbar{
   font-weight: 700;
@@ -19,4 +22,135 @@ a{
   color:#b5403c;
   font-weight: 700;
   font-size: 1.3rem;
+}
+#rdcedd{
+  color:#8c7d7a;
+  letter-spacing: 4.64px;
+  line-height: 0.264px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.carousel img{
+  width:100%;
+  height:100%;
+}
+
+/*小小简介*/
+#little{
+  background: rgba(0, 0, 0, 0.09);
+  padding-top: 46px;
+  padding-bottom: 32px;
+  padding-left: 34px;
+  padding-right: 34px;
+}
+#express{
+  text-align: center;
+  font-weight:normal;
+}
+
+/*LAYOUT*/
+#layout{
+  margin-top: 8rem;
+}
+#row{
+  margin-top: 46px;
+}
+#huack{
+  margin-top: 25px;
+}
+#idontbel{
+  font-size: 1.4rem;
+  padding-top: 72px;
+  padding-right: 100px;
+}
+
+/*CONCEPT*/
+#concept{
+  margin-top: 14rem;
+}
+.offset {
+  background-image: url(img/报刊亭.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: -1;
+}
+#con3{
+  margin-top: 15px;
+  padding-top: 46px;
+  padding-bottom: 40px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+#conset{
+  margin-left: 72px;
+  margin-right: 72px;
+}
+#con1{
+  padding-left: 46px;
+  padding-right: 46px;
+  color:#fff6e0;
+}
+#con2{
+  padding-top: 164px;
+  padding-left: 300px;
+  font-size: 1.4rem;
+}
+
+/*DESIGN*/
+#design{
+  margin-top: 14rem;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+#visualelements{
+  margin-top: 4rem;
+}
+#elrow{
+  margin-top: 15px;
+}
+#elexplain{
+  padding-right: 164px;
+}
+#elword{
+  font-size: 20px;
+}
+#derivativedesign{
+  margin-top: 4rem;
+}
+#cardgroup{
+  margin-bottom: 14rem;
+}
+#cardrow{
+  padding-left: 104px;
+  padding-right: 104px;
+  padding-top: 54px;
+}
+.card{
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-bottom: 15px;
+}
+.card-text{
+  line-height: 18px;
+}
+#madeupstory{
+  color:#969689;
+  line-height: 12px;
+}
+
+/*页脚*/
+#us:hover{
+  color:#d5d5d5;
+}
+#us{
+  font-size: 46px;
+}
+footer{
+  background-color:#a8a299;
+  color:#ffffff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
