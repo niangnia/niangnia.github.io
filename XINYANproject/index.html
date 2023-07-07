@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.min.js"></script>
+    <link rel="stylesheet" href="css/fengmian.css">
+    <title>Welcome!</title>
+    <style type="text/css">
+    @font-face {
+      /*自定义字体名*/
+      font-family: 'MyNewFont';
+      /*字体引入路径*/
+      src: url('font/喜鹊招牌体(简+繁体).ttf');
+    }
+    @font-face {
+      /*自定义字体名*/
+      font-family: 'MyNewFont1';
+      /*字体引入路径*/
+      src: url('font/喜鹊乌冬面(简+繁体).ttf');
+    }
+    @font-face {
+      /*自定义字体名*/
+      font-family: 'deco';
+      /*字体引入路径*/
+      src: url('font/喜鹊聚珍体.ttf');
+    }
+    @font-face {
+      /*自定义字体名*/
+      font-family: 'Song';
+      /*字体引入路径*/
+      src: url('font/原版宋体.ttf');
+    }
+    </style>
+
+</head>
+
+
+
+<body>
+    <!--
+        每个全屏页面div的class为page，其中的图片的class为pageImg
+        ul为右侧的导航栏
+        pageUlLi和page的数目必须相等，修改数目时还应修改最下面js鼠标悬停的跳转代码
+        -->
+
+
+
+    <div id="wrap">
+        <div id="main">
+            <ul id="pageUl" type="circle">
+                <li id="pageUlLi1" class="pageUlLi" style='color:red'>&nbsp;</li>
+                <li id="pageUlLi2" class="pageUlLi">&nbsp;</li>
+                <li id="pageUlLi3" class="pageUlLi">&nbsp;</li>
+                <li id="pageUlLi4" class="pageUlLi">&nbsp;</li>
+                <li id="pageUlLi5" class="pageUlLi">&nbsp;</li>
+
+            </ul>
+              <div id="page1" class="page">
+                <div class=".container-fluid ">
+                    <img src="image/hi.png"style='height:788px;' class="d-block w-100">
+                </div>
+              </div>
+
+            <div id="page2" class="page">
+              <div class="mx-auto" style="width:1300px;height:800px;top:300px;">
+              <div class="card text-center" style='max-width:1300px;height:650px;top:75px;'>
+                <div class="card-body">
+                  <div class="row no-gutters">
+                    <div class="col-md-2">
+                      <h5 class='left-title'>新盐湾</h5>
+                      <div class='spot'>
+                      <i style="width:20px;height:20px;border-radius:50%;background-color:#bb252c;display: block;"></i>
+                    </div>
+                      <div class='mulu'>
+                      <div class='mulu-1'>
+                          理念阐释
+                      </div>
+                        吴语概况
+                        吴语现状
+
+                      </div>
+                       <img class="card-img-bottom" src="image/logo1.png"  style='padding-top:100px; width:50% ;padding-right:15px;' alt="Card image cap">
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card-body" >
+                        <div class="line"></div>
+                        <div class='title1' style='padding-top:20px;'>
+                        <h5 class="card-title">给生活加点"言"</h5>
+                      </div>
+                        <p class="card-text"style='padding-top:20px;'>吴语历史悠久，底蕴深厚，是重要的方言语系，而如今却面临着严重的传承危机。如何像保护一座园林、一座古桥一样保护千万吴语使用者乡情的载体——吴语，是一个值得思考的问题。
+在汉语中，“方言”和“放盐”谐音，我们认为方言像“盐”一样，在生活中是一味不可或缺的调味品。所以新盐湾的核心理念就是“生活之盐”，我们试图通过交互网页从是什么、怎么读、怎么写三方面立体化展示吴语方言文化，建立一座精致的吴语数字园林，希望大家可以更加关注、重视生活当中的方言，为维护方言文化生态的宏大命题做出小小的正面推动，进而推动其他有关方言文化传承的设计活动的传播与发展。</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="image/poster.png" style='margin-top:40px;width:65%;height:80%;' class="card-img" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+            <div  id="page3" class="page">
+              <div class="mx-auto" style="width:1300px;height:800px;top:300px;">
+              <div class="card text-center" style='max-width:1300px;height:650px;top:75px;'>
+                <div class="card-body">
+                  <div class="row no-gutters">
+                    <div class="col-md-2">
+                      <h5 class='left-title'>新盐湾</h5>
+                      <div class='spot'>
+                      <i style="width:20px;height:20px;border-radius:50%;background-color:#bb252c;display: block;"></i>
+                    </div>
+                      <div class='mulu'>
+                        理念阐释
+                        <div class='mulu-1'>
+                        吴语概况
+                      </div>
+                        吴语现状
+                      </div>
+                       <img class="card-img-bottom" src="image/logo1.png"  style='padding-top:100px; width:50% ;padding-right:15px;' alt="Card image cap">
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card-body">
+                        <div class="line"></div>
+                        <div class='title2' style='padding-top:20px;padding-right:80px;'>
+                        <h5 class="card-title">吴语概况</h5>
+                      </div>
+                        <p class="card-text">吴语，又称江东话、江南话、江浙话、吴越语。自周朝至今有三千多年悠久历史，底蕴深厚。在中国分布于今浙江、江苏南部、上海、安徽南部、江西东北部、福建北一角，是使用人数仅次于官话方言的汉语第二大方言。吴语是汉藏语系汉语语族的一支语言，是汉语七大方言集合之一，是中国方言中为数不多的保留了部分古音、古韵的方言，特别是发音与古韵书几乎一致。现代吴方言的分布区域包括江苏长江以南镇江以东部分，崇明岛。江北沿岸靖江、启东、海门三县和南通东部；浙江省大部分地区和江西省的少数地区。吴方言北面大致以长江为界，丹阳、清江是它的北极，和北方方言区的江淮官话接壤：浙江南部温州、金华、衢州三个地区为南极，与闽方言接界。此外，福建省北部浦城县也属吴语区。</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                  <img src="image/map.png" style='margin-top:40px;width:65%;height:90%;' class="card-img" alt="...">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+            <div id="page4" class="page">
+              <div class="mx-auto" style="width:1300px;height:800px;top:300px;">
+              <div class="card text-center" style='max-width:1300px;height:650px;top:75px;'>
+                <div class="card-body">
+                  <div class="row no-gutters">
+                    <div class="col-md-2">
+                      <h5 class='left-title'>新盐湾</h5>
+                      <div class='spot'>
+                      <i style="width:20px;height:20px;border-radius:50%;background-color:#bb252c;display: block;"></i>
+                    </div>
+                      <div class='mulu'>
+                          理念阐释
+                        吴语概况
+                        <div class='mulu-1'>
+                        吴语现状
+                      </div>
+                    </div>
+                       <img class="card-img-bottom" src="image/logo1.png"  style='padding-top:100px; width:50% ;padding-right:15px;' alt="Card image cap">
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card-body">
+                        <div class="line"></div>
+                        <div class='title2' style='padding-top:20px;padding-right:80px;'>
+                        <h5 class="card-title">吴语现状</h5>
+                      </div>
+                        <p class="card-text">吴语由于使用人群严重老龄化、外来流动人口增加使得吴语使用场景缩小、外来人口对掌握吴语兴趣较低、吴语相较其他地区方言理解难度大、全国推广普通话等原因存在着严重的传承危机，在苏州人的生活中逐渐隐去，6-20岁青少年能够熟练使用方言的人群比例，一度低于各地区各语种，仅占人群的少数。
+<br>
+这就是目前仍有将近一亿人正在使用吴语，但它却被国际语言文化组织（ILCO）列为严重濒危语言的原因。然而，“诗成作吴咏，及此醉初醒”的吴语是吴地文化的载体，是一座精美的文化“园林”，也凝结着千万苏州人浓浓的乡情。</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6" id='c1' >
+                    <div style='padding-left:20px;'>
+                    <div class='chart1'style="height:300px;width:500px;position:right">
+                      <canvas id="myChart_1" ></canvas>
+                    </div>
+
+                      <div class='chart2'style="height:600px;width:600px;">
+                      <canvas id="myChart_2" ></canvas>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div id="page5" class="page">
+
+
+            <div class="container">
+     <div class="box">
+         <div class="img-box">
+           <a class="navbar-brand" href="detail-page1.html">
+             <img src="image/xie.png" alt="">
+           </a>
+         </div>
+     </div>
+     <div class="box1">
+         <div class="img-box1">
+            <a class="navbar-brand" href="detail-page2.html">
+             <img src="image/jiang.png" alt="">
+           </a>
+         </div>
+     </div>
+     <div class="box2">
+         <div class="img-box2">
+             <img src="image/mai.png" alt="">
+         </div>
+     </div>
+     <div class="box3">
+         <div class="img-box3">
+             <img src="image/da.png" alt="">
+
+         </div>
+     </div>
+      </div>
+
+
+
+ <br><br><br><br><br><br>
+
+ <img src="image/logo.png" class="logo" href="#">
+
+ <br>
+ <img src="image/slogan.png" class="golo" href="#">
+ <br>
+
+        </div>
+        </div>
+      </div>
+
+  <script src="js/fengmian.js"></script>
+  <script src="https://unpkg.com/spacingjs" defer></script>
+
+</body>
+
+
+
+
+</html>
